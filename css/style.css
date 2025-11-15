@@ -21,6 +21,7 @@ main{
 footer{
     font-size: 12px;
     padding: .75rem;
+    gap: 1rem
 }
 
 img{
@@ -112,6 +113,9 @@ article hr{
 .d-wrap{
     flex-wrap: wrap;
 }
+.d-align-center{
+    align-items: center;
+}
 .category{
     font-size: 14px;
 }
@@ -148,22 +152,23 @@ figure.relative{
     position: absolute;
 }
 .play{
-    width: 15%;
+    width: 40px;
     right: 50%;
     top: 50%;
     translate: 50% -50%;
     opacity: 65%;
 }
 .w-later{
-    width: 6%;
-    right: 13%;
-    top: 8%;
+    width: 20px;
+    right: 3rem;
+    top: 1rem;
     opacity: 65%;
+    vertical-align: middle;
 }
 .share{
-    width: 6%;
-    right: 4%;
-    top: 7%;
+    width: 20px;
+    right: 1rem;
+    top: 1rem;
     opacity: 65%;
 }
 
@@ -194,5 +199,19 @@ p{
 figcaption img{
     width: 15px;
     vertical-align: middle;
-    
+
 }
+
+
+/* sistemato paddin footer con gap nel footer
+
+footer > section{
+    padding-bottom: 1rem;
+}
+
+footer > section ul > li{
+    padding-bottom: .5rem;
+} 
+*/
+
+
