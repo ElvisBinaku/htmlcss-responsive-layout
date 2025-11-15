@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap" rel="stylesheet">
     <title>Giallo Booleano</title>
 </head>
 <body>
@@ -12,53 +15,70 @@
     </header>
 
     <main class="bg-gray">
-        <section class="top container">
-            <a href="">DOLCI E DESSERTS</a>
-            <h2>Tiramisù (Dolce Tradizionale)</h2>
+        <section class="title container">
+            <ul>
+                <li class="category"><a href="">DOLCI E DESSERTS</a></li>
+                <li><h2 class="bold txt-violet">Tiramisù <span class="extended-title">(Dolce Tradizionale)</span></h2></li>
+            </ul>
+            </section>
+        <section class="top container shadow bg-white">
             <section class="yt-video">
-                <img src="./img/tiramisu.jpg" alt="tiramisu">
+                <figure class="relative">
+                    <img src="./img/tiramisu.jpg" alt="tiramisu" class="image-yt-tiramisu">
+                    <figcaption class="absolute yt-caption txt-white">watch on <span><img src="./img/icons/youtube.png" alt="play"></span> Youtube</figcaption>
+                    <img src="./img/icons/share.png" alt="share" class="absolute share">
+                    <img src="./img/icons/youtube.png" alt="play" class="absolute play">
+                    <img src="./img/icons/w-later.png" alt="watch later" class="absolute w-later">
+                </figure>
             </section>
 
-            <section class="recap-recipe">
-                <h4>In Breve</h4>
+            <section class="recap-recipe bg-white m-b-2">
+                <h4 class="p-b-1">In Breve</h4>
                 <ul>
-                    <li>Difficoltà: Facile</li>
-                    <li>Tempo: 40 min</li>
-                    <li>Poorzione: per 8 persone</li>
-                    <li>Costo: contenuto</li>
-                    <li>Note: +2 ore di risposto in frigo</li>
+                    <li>Difficoltà: <span class="bold">Facile</span></li>
+                    <li>Tempo: <span class="bold">40 min</span></li>
+                    <li>Poorzione per: <span class="bold">8 persone</span></li>
+                    <li>Costo: <span class="bold">contenuto</span></li>
+                    <li><span class="bold">Note: </span>+2 ore di risposto in frigo</li>
                 </ul>
             </section>
         </section>
 
-        <section class="social container d-flex">
-            <span class="fb tag-social"></span>
-            <span class="twitter tag-social"></span>
-            <span class="ig tag-social"></span>
-            <span class="pinterest tag-social"></span>
-            <span class="yt tag-social"></span>
+        <section class="social container m-b-2">
+            <ul class="d-flex d-space-between">
+                <li><a href=""><span class="tag-social shadow"><img src="./img/icons/facebook.png" alt=""></span></a></li>
+                <li><a href=""><span class="tag-social shadow"><img src="./img/icons/instagram.png" alt="">
+                </span></a></li>
+                <li><a href=""><span class="tag-social shadow"><img src="./img/icons/twitter.png" alt=""></span></a></li>
+                <li><a href=""><span class="tag-social shadow"><img src="./img/icons/pinterest.png" alt=""></span></a></li>
+                <li><a href=""><span class="tag-social shadow"><img src="./img/icons/youtube.png" alt=""></span></a></li>
+            </ul>
+            
         </section>
-        <section class="ads">
 
+        <section class="ads container m-b-2">
+            <img src="./img/banner.png" alt="">
         </section>
 
-        <article class="container">  
-            <h3>PRESENTATION</h3>
-            <hr>
-            <img src="./img/tiramisu.jpg" alt="">
-            <p>Back in the day, grandmothers used to prepare a breakfast that we might call humble today, but was considered very rich at the time! Today the recipe is still unchanged, just break a very fresh egg into a glass, beat it with sugar, and add coffee or hot milk, for children, or Marsala wine or aniseed for adults. This marvelous cream gave rise to mascarpone cream used to make Tiramisù (mascarpone cheese and ladyfingers dessert). This is the best Italian dessert, the most popular and beloved of them all, and it has also birthed many other versions, even an egg-free Tiramisù! There is also a strawberry and Nutella tiramisù! Although the origins of this famous dessert are unclear, because it is disputed between the regions of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany, it remains a cornerstone of Italian cuisine and it's widely prepared from North to South. Unfortunately, we weren't able to find out who invented it, but we can certainly teach you how to prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!</p>
+        <article class="container p-b-1">  
+            <h3 class="m-b-1">PRESENTATION</h3>
+            <hr class="m-b-1">
+            <figure class="img-presentation">
+                <img src="./img/tiramisu.jpg" alt="" class="m-b-1 shadow">
+            </figure>
+            <p>Back in the day, grandmothers used to prepare a breakfast that we might call humble today, but was considered very rich at the time! Today the recipe is still unchanged, just break a very fresh egg into a glass, beat it with sugar, and add coffee or hot milk, for children, or <strong>Marsala wine</strong> or aniseed for adults. This marvelous cream gave rise to mascarpone cream used to make <strong>Tiramisù</strong> (mascarpone cheese and ladyfingers dessert). This is the <strong>best Italian dessert</strong>, the most popular and beloved of them all, and it has also birthed many other versions, even an egg-free Tiramisù! There is also a strawberry and Nutella tiramisù! Although the origins of this famous dessert are unclear, because it is disputed between the regions of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany, it remains a cornerstone of Italian cuisine and it's widely prepared from North to South. Unfortunately, we weren't able to find out who invented it, but we can certainly teach you how to prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!</p>
         </article>
     </main>
 
     <footer class="bg-violet d-flex d-flex-column justify-center">
-        <section class="d-flex justify-center">
+        <section class=" d-flex justify-center container">
             <ul>
-                <li>2021 giallo Booleano S.p.a.</li>
+                <li class="bold">© 2021 giallo Booleano S.p.a.</li>
                 <li>Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020</li>
             </ul>
         </section>
-        <section>
-            <ul class="d-flex justify-center">
+        <section class="detail">
+            <ul class=" nav d-flex justify-center container d-space-between d-wrap">
                 <li>About us</li>
                 <li>Terms of use</li>
                 <li>Privacy Policy</li>

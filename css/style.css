@@ -3,26 +3,88 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-img{
-    width: 100%;
-    height: auto;
+body{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;;
 }
-
 li{
     list-style: none;
+}
+
+header{
+    padding: .5rem;
+}
+
+main{
+    padding-top: 1rem;
+}
+
+footer{
+    font-size: 12px;
+    padding: .75rem;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+footer section.detail > ul li{
+    padding-right: 1rem;
 }
 
 footer ul li {
     width: max-content;
     margin: 0 auto;
+    color: white;
+}
+section.title > ul li{
+    padding-bottom: 1rem;
+}
+figure.img-presentation{
+    width: 65%;
+    margin: 0 auto;
+}
+article hr{
+    width: 20%;
+    border-color: orange;
+}
+.main-logo{
+    font-family: Nerko One, cursive;
+    color: orange;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 40px;
+}
+
+.shadow{
+    box-shadow: 2px 2px 10px rgb(219, 219, 219);
+}
+.extended-title{
+    display: none;
+}
+.image-yt-tiramisu{
+    height: 220px;
+    object-view-box: inset(20%);
+    object-position: 35px -50px;
+    object-fit: cover;
 }
 .bg-gray{
     background-color: #f6f5f3;
 }
-
+.bg-white{
+    background-color: white;
+}
 .bg-violet{
     background-color: #7c69a4   ;
+}
+
+.txt-violet{
+    color: #7c69a4;
+}
+.txt-white{
+    color: white;
+}
+.bold{
+    font-weight: 700;
 }
 
 .hg-50{
@@ -44,11 +106,93 @@ footer ul li {
 .justify-center{
     justify-content: center;
 }
+.d-space-between{
+    justify-content: space-between;
+}
+.d-wrap{
+    flex-wrap: wrap;
+}
+.category{
+    font-size: 14px;
+}
 
+.category a{
+    text-decoration: none;
+    color: gray;
+}
 .social{
 
 }
+.recap-recipe li{
+    padding-bottom: .4rem;
+}
+
+.recap-recipe{
+    padding: 1rem;
+}
+.ads{
+    display: none;
+}
 
 .tag-social{
+    background-color: white;
+    border-radius: 20px;
+    padding: .5rem .75rem;
+}
 
+figure.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+.play{
+    width: 15%;
+    right: 50%;
+    top: 50%;
+    translate: 50% -50%;
+    opacity: 65%;
+}
+.w-later{
+    width: 6%;
+    right: 13%;
+    top: 8%;
+    opacity: 65%;
+}
+.share{
+    width: 6%;
+    right: 4%;
+    top: 7%;
+    opacity: 65%;
+}
+
+section.social img{
+    width: 10px;
+}
+p{
+     line-height: 2;
+}
+.m-b-2{
+    margin-bottom: 2rem;
+}
+.m-b-1{
+    margin-bottom: 1rem;
+}
+.p-b-1{
+    padding-bottom: 1rem;
+}
+
+.yt-caption{   
+    background-color: black;
+    opacity: 65%;
+    bottom: 1rem;
+    left: 1rem; 
+    padding: .5rem;
+}
+
+figcaption img{
+    width: 15px;
+    vertical-align: middle;
+    
 }
