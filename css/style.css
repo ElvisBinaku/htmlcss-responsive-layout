@@ -202,7 +202,13 @@ figcaption img{
 
 }
 
+.detail-nav{
+    width: 80%;
+}
 
+footer section.detail-nav ul li{
+    padding-right: .7rem;
+}
 /* sistemato paddin footer con gap nel footer
 
 footer > section{
@@ -215,3 +221,65 @@ footer > section ul > li{
 */
 
 
+@media screen and (min-width:768px) {
+
+header.justify-center{
+    justify-content: start;
+}
+
+.extended-title{
+    display: inline-block;
+}
+
+header{
+    padding-left: 1rem;
+}
+
+main.main-section
+{
+    padding: 2.5rem 1rem;
+}
+
+
+.tag-social{
+    padding: .5rem 3rem;
+}
+    
+section.social img{
+    width: 13px;
+}
+
+.recap-recipe ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.ads{
+    display: block;
+}
+
+figure.img-presentation{
+    width: 40%;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+}
+
+figure img.m-b-1{
+    margin-bottom: 0;
+}
+p{
+     line-height: 2.4;
+}
+ul li h2.title-txt{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.image-yt-tiramisu{
+    height: 300px;
+}
+
+}
