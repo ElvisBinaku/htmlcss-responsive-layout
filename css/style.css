@@ -152,7 +152,6 @@ article hr{
 }
 
 .social ul li{
-    
     padding-right: 0rem;
 }
 
@@ -361,23 +360,9 @@ ul li h2.title-txt{
 
 @media screen and (min-width:992px) {
 
-header.justify-center{
-    justify-content: start;
-}
-
-.extended-title{
-    display: inline-block;
-}
-
 header{
     padding-left: 3rem;
 }
-
-main.main-section
-{
-    padding: 2.5rem 1rem;
-}
-
 
 /*.tag-social{
     padding: .5rem 4rem;
@@ -388,37 +373,19 @@ section.social img{
 }
 
 .recap-recipe ul {
-    display: flex;
     flex-direction: column;
-    gap: 1rem 2rem;
 }
 
-.ads{
-    display: block;
-}
 
 figure.img-presentation{
     width: 35%;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 0rem;
 }
 
-figure img.m-b-1{
-    margin-bottom: 0;
-}
-p{
-     line-height: 2.4;
-}
 
 ul li h2.title-txt{
     font-size: 28px;
-    font-weight: 800;
 }
 
-.image-yt-tiramisu{
-    height: 300px;
-}
 
 section.top{
     display: flex;
