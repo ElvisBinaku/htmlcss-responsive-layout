@@ -21,9 +21,9 @@ main{
 
 footer{
     font-size: 12px;
-    padding: .75rem;
-    gap: 1rem
+    padding: 1rem ;
 }
+
 
 img{
     height: auto;
@@ -220,6 +220,14 @@ figcaption img{
 footer section.detail-nav ul li{
     padding-right: .3rem;
 }
+
+footer section.detail ul li:first-child{
+padding-bottom: .5rem;}
+
+footer section.detail {
+    padding-bottom: .6rem;
+}
+
 /* sistemato paddin footer con gap nel footer
 
 footer > section{
@@ -232,6 +240,8 @@ footer > section ul > li{
 */
 
 
+
+
 @media screen and (min-width:768px) {
 
 header.justify-center{
@@ -258,6 +268,7 @@ main.main-section
     
 section.social img{
     width: 13px;
+    vertical-align: middle;
 }
 
 .recap-recipe ul{
@@ -292,70 +303,9 @@ ul li h2.title-txt{
 .image-yt-tiramisu{
     height: 300px;
 }
-
+section.detail-nav ul.d-space-between {
+    justify-content: space-around;
 }
-
-@media screen and (min-width:768px) {
-
-header.justify-center{
-    justify-content: start;
-}
-
-.extended-title{
-    display: inline-block;
-}
-
-header{
-    padding-left: 1rem;
-}
-
-main.main-section
-{
-    padding: 2.5rem 1rem;
-}
-
-
-.tag-social{
-    padding: .5rem 3rem;
-}
-    
-section.social img{
-    width: 13px;
-}
-
-.recap-recipe ul{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem 2rem;
-    flex-wrap: wrap;
-}
-
-.ads{
-    display: block;
-}
-
-figure.img-presentation{
-    width: 40%;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 0rem;
-}
-
-figure img.m-b-1{
-    margin-bottom: 0;
-}
-p{
-     line-height: 2.4;
-}
-ul li h2.title-txt{
-    font-size: 25px;
-    font-weight: 800;
-}
-
-.image-yt-tiramisu{
-    height: 300px;
-}
-
 }
 
 @media screen and (min-width:992px) {
@@ -404,10 +354,15 @@ footer section.detail{
     justify-content: start;
 }
 footer section.detail ul li{
+    
     margin: 0;
 }
 footer section.detail-nav{
     width: 50%;
+}
+
+.tag-social{
+    padding: .5rem 2.5rem;
 }
 
 .facebook,
@@ -418,5 +373,14 @@ footer section.detail-nav{
     display: inline-block;
     font-size: 10px;
     font-weight: bold;
+    padding-left: .3rem;
 }
+footer section.detail {
+    padding-bottom: 0rem;
+}
+
+section.detail-nav ul.d-space-between {
+    justify-content: space-between;
+}
+
 }
